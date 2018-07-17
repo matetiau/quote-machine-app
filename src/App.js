@@ -29,11 +29,11 @@ class QuoteMach extends Component {
         .then(results => results.json())
         .then(data => this.setState({quote: data.quote,author: data.author, link:data.quote }))
         
+        
     }
     
 /*fetch on click */
 quoteChange () {
-  this.state ={quote: []}
   fetch('https://talaikis.com/api/quotes/random/')
         .then(results => results.json())
         .then(data => this.setState({quote: data.quote,author: data.author}))
