@@ -29,15 +29,8 @@ class QuoteMach extends Component {
         .then(results => results.json())
         .then(data => this.setState({quote: data.quote,author: data.author, link:data.quote }))
         
-      
-        var fcc = document.createElement('script');
-fcc.src = "https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js";
-
-document.head.appendChild(fcc);      }
+    }
     
-    
-
-
 /*fetch on click */
 quoteChange () {
   
