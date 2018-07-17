@@ -33,7 +33,7 @@ class QuoteMach extends Component {
     
 /*fetch on click */
 quoteChange () {
-  
+  this.state ={quote: []}
   fetch('https://talaikis.com/api/quotes/random/')
         .then(results => results.json())
         .then(data => this.setState({quote: data.quote,author: data.author}))
