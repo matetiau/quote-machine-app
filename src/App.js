@@ -29,7 +29,7 @@ class QuoteMach extends Component {
         .then(results => results.json())
         .then(data => this.setState({quote: data.quote,author: data.author, link:data.quote }))
         
-        
+
     }
     
 /*fetch on click */
@@ -45,7 +45,7 @@ quoteChange () {
 tweet () {
    
    const link = document.getElementById("tweet-quote");
-        link.href = "https://twitter.com/intent/tweet?text="+ this.state.quote;
+        link.href = "https://twitter.com/intent/tweet?text="+ this.state.quote + "-" + this.state.author;
         
 }
 
