@@ -6,6 +6,14 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 
 library.add(fab)
 
+/*changing title and lil pic*/
+
+
+document.title = "Kamer-Quote-Machine";
+
+
+
+
 
 /*compoentn*/
 
