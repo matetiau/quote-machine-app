@@ -9,17 +9,16 @@ library.add(fab)
 
 
 document.title = "Kamer-Quote-Machine";
-/*adding add*/
+
 
 let adds = document.createElement('script');
 adds.src = "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-
 document.head.appendChild(adds);
 
 
 
 
-/*compoentn*/
+/*main component*/
 
 class QuoteMach extends Component {
   
@@ -69,7 +68,7 @@ tweet () {
   render () {
     const { quote } = this.state;
     const { author } = this.state;
-      
+    
     return (
       
       <div id="quote-box">
@@ -77,14 +76,9 @@ tweet () {
     <p id="author">{author}</p>
     <a id="new-quote" onClick={this.quoteChange}>New Quote!</a>
     <a id="tweet-quote" type="button"  onClick={this.tweet} href = "https://twitter.com/intent/tweet"    data-show-count="false" data-size="large"><FontAwesomeIcon icon={['fab', 'twitter']} /> Tweet Quote!</a>
-  
+    
     </div> 
     
-      
-
-
-
-
   );
 }
 };

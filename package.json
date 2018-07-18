@@ -12,9 +12,10 @@
     "@fortawesome/free-regular-svg-icons": "^5.1.0",
     "@fortawesome/free-solid-svg-icons": "^5.1.0",
     "@fortawesome/react-fontawesome": "0.1.0-11",
-    "react": "^16.2.0",
+    "react": "^16.4.1",
     "react-adsense": "0.0.5",
-    "react-dom": "^16.2.0",
+    "react-dom": "^16.4.1",
+    "react-google-ads": "^1.0.5",
     "react-scripts": "1.1.1",
     "source-map-explorer": "^1.5.0"
   },
