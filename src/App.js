@@ -19,6 +19,8 @@ document.head.appendChild(adds);
 <AdSense.Google
 client = "ca-pub-9556966446614388"
 slot='7806394673'
+format='fluid'
+style={{ display: 'block' }}
     />
 
 
