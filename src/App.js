@@ -3,15 +3,23 @@ import './App.css';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-
+import {AdSense} from 'react-adsense';
 library.add(fab)
 
 /*changing title and lil pic*/
 
 
 document.title = "Kamer-Quote-Machine";
+/*adding add*/
 
+let adds = document.createElement('script');
+adds.src = "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
 
+document.head.appendChild(adds);
+<AdSense.Google
+client = "ca-pub-9556966446614388"
+slot='7806394673'
+    />
 
 
 
@@ -57,6 +65,11 @@ tweet () {
         
 }
 
+
+
+
+
+
   render () {
     const { quote } = this.state;
     const { author } = this.state;
@@ -71,6 +84,11 @@ tweet () {
   
     </div> 
     
+      
+
+
+
+
   );
 }
 };
