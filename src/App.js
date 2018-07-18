@@ -16,12 +16,7 @@ let adds = document.createElement('script');
 adds.src = "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
 
 document.head.appendChild(adds);
-<AdSense.Google
-client = "ca-pub-9556966446614388"
-slot='7806394673'
-format='fluid'
-style={{ display: 'block' }}
-    />
+
 
 
 
